@@ -61,10 +61,8 @@ class Solution:
 ## Discussion
 
 **Why do we sort based on start times? Would it work if we sort based on end
-times?**
-
-You can sort either way and it will still work. To understand why, consider
-what  
+times?**<br> You can sort either way and it will still work. To understand why,
+consider what  
 constitutes an overlap: an overlap occurs when the start time of an interval  
 lies before the end time of the previous interval.
 
@@ -74,6 +72,13 @@ it's an overlap. If you sort by start times, `i` starts after `i-1`, but if it
 starts before  
 `i-1` ends, it's an overlap.
 
-Sometimes it's hard to fully comprehend this, so try drawing the different
-intervals  
-as lines on an x-y axis. Visuals can help
+**What is an overlap?**<br> Technically speaking an two intervals overlap when
+the end of one is after the start of another. I personally found this difficult
+to imagine till the time I thought about it like this - Imagine you go to a
+party hoping run into a speical someone, since there were a lot of people at the
+party you didn't see them. Later when you spoke to them you found out that they
+were infact at teh party and they left at 11:30. You reached the party at 10:45.
+You can definitely say that there was an overlap of the time when you both were
+at the party, even when you dont know when they came and you left, just you
+entering and them leving is enough to say that there is an overlap. Hope this
+helps.
