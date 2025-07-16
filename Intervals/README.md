@@ -13,7 +13,7 @@ Lets talk about that are the usecases of each of the datastrucutres.
 1. Hashmaps : Mainly to remember things, hashmaps have keys that hash to a
    memory address and looking at whats stored at that address is instantaneous.
 
-   Will it work here?
+   Will it work here? : Yes, although not very obvious here, The Line Sweeping Algorithm uses it. Checkout required algorithms below. 
 
 2. Heaps/Priority Queues : I like to think of priority queues as "live"
    datastructures they are like a little elf working to maintain the data
@@ -24,7 +24,16 @@ Lets talk about that are the usecases of each of the datastrucutres.
 
 3. Stacks (Monotonic Stacks) :
 
-Preprocessing
+
+## Algorithms
+There are a few algorithms that will make life easier when dealing with Intervals. 
+
+**Line Sweep Algorithm**
+
+
+
+
+**Preprocessing**
 
 1. Somtimes you will get questions where the start and end times will be in
    seperate arrays.
