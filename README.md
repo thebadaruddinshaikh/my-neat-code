@@ -1,4 +1,4 @@
-# What's this repos?
+# What's this repo?
 
 The point of this repo, document and help aid myself and anybody in preparing
 for technical interviews to build intutition. If you have attempted OA's or sat
