@@ -1,9 +1,5 @@
 # 2251. Number of Flowers in Full Bloom
 
-**Difficulty:** Hard
-
----
-
 You are given a 0-indexed 2D integer array `flowers`, where  
 `flowers[i] = [start_i, end_i]` means the *i*th flower will be in full bloom  
 from `start_i` to `end_i` (**inclusive**). You are also given a 0-indexed  

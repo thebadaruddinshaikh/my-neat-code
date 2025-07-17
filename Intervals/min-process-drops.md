@@ -1,9 +1,5 @@
 # Minimum Process Drops for Synchronization
 
-**Difficulty:** Medium
-
----
-
 A team of developers is working on process synchronization. A set of processes
 is synchronized if there is at least one process in the set whose execution time
 overlaps with the execution times of all other processes in the set.
