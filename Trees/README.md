@@ -1,0 +1,48 @@
+# Trees - WIP
+
+Trees are a form of graph, good chuck of question do use algorithms that you
+study in graphs like DFS, BFS etc. There could also be a case where you are
+required to convert a tree into a adjacency list. BUT, a big BUTT, is that most
+question in Trees require **recursion**.
+
+Majorly Tree Questions primarily revolve around finding
+
+1. Height of the Tree/subtree
+2. Something with the values of subtree
+3. ....
+
+When writing recursive solutions the thing that throws most people (atleast me)
+off is the number of possibilities.
+
+A single node in general is quite straight forward it can have a left child
+and/or a right child or nothing at all. But when you zoom out a little bit you
+start to thing this could be the case with every node and then the mind wanders
+off thinking about all the different variations and if your code can handle all
+of these cases. This is the biggest pitfall.
+
+To deal with this. Ask yourself question.
+
+1. What do I want from the either arm?
+2. When I make the recursive call how am I going to use the information that I
+   got from the my call ot the other arm.
+3. When recursive calls to both arms have finished, what information am I
+   passing to the parent?
+4. How does the current node contribute to this information I am building.
+
+If you can answer these questions , you can solve any recrusive tree problem
+without much effort.
+
+## Standard Terminologies and Algorithms.
+
+### Types of Binary Trees.
+
+1. Fully filled
+2. Complete
+3. Incomplete
+
+### Tree Traversals.
+
+1. In-Order
+2. Pre-Order
+3. Post-Order
+4. Level Order Traversal
