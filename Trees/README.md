@@ -30,17 +30,27 @@ To deal with this. Ask yourself question.
 4. How does the current node contribute to this information I am building.
 
 If you can answer these questions , you can solve any recrusive tree problem
-without much effort.
+without much effort. Question
 
-## Standard Terminologies and Algorithms.
+## Binary Search Trees
 
-### Types of Binary Trees.
+A type of binary tree that have the following constraints.
+
+1. Left child is less than or equal to the parent.
+2. Right child is strictly greater than parent.
+
+The questions are mostly about traversal. Since there is additional layer of
+complexity added with the constraints.
+
+### Standard Terminologies and Algorithms.
+
+**Types of Binary Trees.**
 
 1. Fully filled
 2. Complete
 3. Incomplete
 
-### Tree Traversals.
+**Tree Traversals.**
 
 1. In-Order
 2. Pre-Order
