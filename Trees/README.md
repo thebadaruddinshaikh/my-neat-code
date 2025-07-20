@@ -20,7 +20,25 @@ start to thing this could be the case with every node and then the mind wanders
 off thinking about all the different variations and if your code can handle all
 of these cases. This is the biggest pitfall.
 
-To deal with this. Ask yourself question.
+To deal with this we find need to understand what is the flow of information
+like?
+
+- do the children need to tell something to the parent? (Bottom-Up)
+- Or is there a need of some information to be passed down the chlidren from teh
+  parent? (Top-down)
+
+Question whose answers depend on their children, obiviously need bottom up
+approach. Problems like
+[Maximum Depth Binary Tree](./2.maximum-depth-binary-tree.md),
+[Diameter of Binary Tree](./3.diameter-binarytree.md),
+[Balanced Binary Tree](./4.balanced-binary-tree.md) use Bottom up, because think
+about it in any of the questions you have to check the children to see if they
+satisfy some condition, right?
+
+There are questions are more suited for Top-Down approach, checkout
+[Branch Sum](./9.branch-sum.md)
+
+## Botttom-Up
 
 1. What do I want from the either arm?
 2. When I make the recursive call how am I going to use the information that I
@@ -31,6 +49,22 @@ To deal with this. Ask yourself question.
 
 If you can answer these questions , you can solve any recrusive tree problem
 without much effort. Question
+
+## Top Down
+
+In this type of recursion the parent passes information about the tree above
+with the information about itself to both the children. The final answer is
+prepared/saved at the leaf nodes. The information is passed down as argument to
+the children.
+
+Questions to as here are very straight forward.
+
+1. What do the children need to know about the parent.
+2. Where and how will the result computed at the leaves be stored?
+   - Passing a reference to an answer array that the leaf woudl just append the
+     results thats being passed down.
+   - Returning the result back to the caller. TODO: Does this make sense? Maybe
+     dont do it when you problem ends up making you return arrays?
 
 ## Binary Search Trees
 
