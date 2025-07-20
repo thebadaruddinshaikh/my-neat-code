@@ -76,7 +76,7 @@ A type of binary tree that have the following constraints.
 The questions are mostly about traversal. Since there is additional layer of
 complexity added with the constraints.
 
-### Standard Terminologies and Algorithms.
+## Standard Terminologies and Algorithms.
 
 **Types of Binary Trees.**
 
@@ -86,7 +86,7 @@ complexity added with the constraints.
 
 **Tree Traversals.**
 
-1. In-Order
-2. Pre-Order
-3. Post-Order
+1. [In-Order Traversal](./0.traversal-inorder.md)
+2. [Pre-Order Traversal](./0.traversal-preorder.md)
+3. [Post-Order Traversal](./0.traversal-postorder.md)
 4. Level Order Traversal
