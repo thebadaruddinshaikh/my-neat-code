@@ -1,3 +1,43 @@
+## Current Status.
+
+- Intervals
+  - I'm left wiht 2 problems here, post this I will clean up the folder, and
+    more insights on the main page and wrap up.
+- Trees.
+  - I have covered a good amount of ground on Trees. I would still like to add
+    atleast 10 more Binary Tree questions, along with detailed explanation using
+    the problem solving techniques mentioned here. The techniques might still
+    need refinement as I do cover more questions.
+  - BST : Still remains incomplete
+- Heaps
+  - Incomplete
+- Arrays and Hashing
+  - Incomplete
+- Stacks
+  - Incomplete
+- Recursion
+  - Incomplete
+- Backtracking
+  - Incomplete
+- LinkedList
+  - Incomplete
+- DP - 1D
+  - Incomplete
+- DP - 2D
+  - Incomplete
+- Two Pointers
+  - Incomplete
+- Sliding Window
+  - Incomplete
+- Greedy Problems
+  - Incomplete
+- Trie
+  - Incomplete
+- Graphs
+  - Incomplete
+- Bit Manipulation
+  - Incomplete
+
 # What's this repo?
 
 The point of this repo, document and help aid myself and anybody in preparing
