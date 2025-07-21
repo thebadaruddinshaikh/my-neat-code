@@ -90,3 +90,9 @@ complexity added with the constraints.
 2. [Pre-Order Traversal](./0.traversal-preorder.md)
 3. [Post-Order Traversal](./0.traversal-postorder.md)
 4. Level Order Traversal
+
+**Turning Trees into Graphs Problems** When you work with a Tree problem you are
+often always limited by the nodes you can get to - you don't have a reference to
+your parent. If you want to find apply a graph algorithm you need to convert
+them so that your graph algorithms work seamlessly. For example checkout
+[Find Nodes at K Distance](./13.find-nodes-at-k-distance.md#solution-using-adjacency-list).
