@@ -50,6 +50,12 @@ There are questions are more suited for Top-Down approach, checkout
 If you can answer these questions , you can solve any recrusive tree problem
 without much effort. Question
 
+### Important Note :
+
+**DO NOT ZOOM OUT!!! STAY AT THIS LEVEL : COMPLETE TREE NODE, IT WONT COMPLICATE
+THINGS, STAYING AT LEVEL WILL MAKE THE PROBLEM SO EASY, YOU WOULD FEEL YOU ARE
+CHEATING, I PROMISE!!**
+
 ## Top Down
 
 In this type of recursion the parent passes information about the tree above
