@@ -17,6 +17,7 @@ for "remebering". Depending on the problem we either use one or a combination.
 - Bitmap
 - Stack / Monotonic Stack
 
-Its a traversal type question when
+Its a traversal type question when the array some how find the longest subarray
+where a condition is met
 
 ## Deep Dive

@@ -1,4 +1,4 @@
-# Recursion.
+# Recursion + Backtracking
 
 This is a super important topic. Mastering recursion is almost like unlocking a
 super power as a programmer. Primarily becuase there are plethora of problems

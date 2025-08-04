@@ -10,3 +10,8 @@ planning to use it for competitive programming or in Technical Interviews.
 1. heapq
 2. defaultdict
 3. deque
+
+## A Level Deeper - Bits.
+
+- int value of 'a' - 97
+- int value of 'A' - 65
