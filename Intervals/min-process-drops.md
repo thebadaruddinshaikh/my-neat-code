@@ -29,13 +29,12 @@ The execution intervals are:
 - [3, 5]
 - [4, 5]
 
-Removing the process at index 0 (interval [1, 2]) results in:
+Removing the process at index 3 (interval [4, 5]) results in:
 
+- [1, 2]
 - [2, 3]
 - [3, 5]
-- [4, 5]
-
-These three intervals all overlap at time 3, making the set synchronized.
+These three intervals all overlap , making the set synchronized.
 
 ---
 
